@@ -4,7 +4,7 @@
 ### One solution responds to web and mobile 
 
 ### Desktop
-<img src="https://github.com/allen391/Video-app-UI/blob/master/screenshot/desktop.png" width="600" height="619"/>
+<img src="https://github.com/allen391/Video-app-UI/blob/master/screenshot/desktop.png" width="750" height="619"/>
 
 
 ### Mobile
