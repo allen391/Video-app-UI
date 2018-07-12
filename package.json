@@ -1,0 +1,19 @@
+{
+  "name": "musicui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "author": "allencth",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-postcss": "^7.0.1",
+    "postcss-px2rem": "^0.3.0"
+  }
+}

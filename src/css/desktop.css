@@ -1,0 +1,205 @@
+/* desktop css */
+
+.desktop {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.desktop-header {
+  overflow: hidden;
+  height: 86px;
+  line-height: 86px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.desktop-header-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.desktop-header-left {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.desktop-header nav ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+
+.desktop-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.desktop-nav-active {
+  border-top: solid;
+  border-color: #fff;
+  border-width: 4px;
+}
+
+.desktop-content {
+  display: table;
+  margin-left: 147px;
+  width: 850px;
+}
+
+.desktop-content-download,
+.desktop-content-preview {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.desktop-content-download {
+  padding: 50px;
+}
+
+.slogan-top,
+.slogan-bottom {
+  display: inline-block;
+}
+
+.slogan-top img {
+  width: 222px;
+  height: 87px;
+}
+
+.slogan-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slogan-top p {
+  opacity: 0.5;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0px;
+  line-height: 24px;
+}
+
+.slogan-bottom {
+  text-align: left;
+  position: relative;
+}
+
+.slogan-bottom::before {
+  position: absolute;
+  content: " ";
+  left: 0px;
+  width: 7px;
+  height: 100%;
+  background: #fff;
+  border-radius: 100px;
+}
+
+.slogan-bottom p {
+  margin-left: 22px;
+  color: #fff;
+}
+
+.slogan-bottom p:first-child {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.slogan-bottom p:last-child {
+  font-size: 16px;
+}
+
+.desktop-btns {
+  margin-top: 60px;
+}
+
+.desktop-btn {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: #FFFFFF;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-weight: 800;
+  text-align: center;
+}
+
+.desktop-btns .desktop-btn:first-child{
+  margin-right: 10px
+}
+
+.desktop-btn-logo {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: 100% 100%!important;
+  vertical-align: middle;
+  margin-right: 8.5px;
+}
+
+.appstore-logo {
+  background: url('../img/demo-appstore-logo.png') no-repeat;
+}
+
+.android-logo {
+  background: url('../img/demo-googleplay-logo.png') no-repeat;
+}
+
+.desktop-content-preview {
+  text-align: right
+}
+
+.desktop-btn-active {
+  color: #fff;
+  background-image: linear-gradient(-90deg, #8450FF 1%, #33AEFF 100%);
+}
+
+.desktop-btn-active span:first-child {
+  background: url('../img/demo-appstore-logo-white.png') no-repeat;
+}
+
+.desktop-content-preview .phone {
+  display: inline-block;
+  width: 270px;
+  height: 486px;
+  position: relative;
+  background: url('../img/demo-phone.png') no-repeat;
+  background-size: cover;
+  top: 41px;
+}
+
+.desktop-content-preview video {
+  position: absolute;
+  width: 204px;
+  height: 381px;
+  background-color: #fff;
+  left: 34px;
+  top: 34px;
+}
+
+.desktop-content-preview .play-btn {
+  position: absolute;
+  background: url('../img/demo-play-btn.png') no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 42%;
+  cursor: pointer;
+}
+
+
+
